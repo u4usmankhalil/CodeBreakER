@@ -1,0 +1,10 @@
+merge 
+--> ar,low,mid,high // logic
+bubble
+--> i=0,j=0,i<s,j<s,a[j]>a[j+1] swap(&a[j+1],&a[j]) //logic
+insertion
+--> {i=0,i<s,min=a[i],{j=i-1,j>=0 && a[j]>min,a[j+1]=a[j];j--;}a[j+1]=min;}
+selectin
+--> {i=0,i<s,i++,min=i;{j=i+1,j<n,j++,if(a[j]<a[min],min=j;}if(min!=i) then swap(&a[min],&a[i]}
+
+

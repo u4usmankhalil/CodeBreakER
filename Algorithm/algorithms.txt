@@ -1,0 +1,10 @@
+merge
+bubble
+insertion 
+selection
+quick 
+radix
+shell
+count
+bucket
+heap
